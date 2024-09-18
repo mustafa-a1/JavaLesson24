@@ -19,7 +19,7 @@ public class InterfaceTest implements Shape {
 		iobj.square(); // Default
 		Shape.rectangle(); // Static method
 		iobj.triangle(); // Class method
-
+	
 		System.out.println("Area is: " + Shape.length * Shape.width);
 
 	}
